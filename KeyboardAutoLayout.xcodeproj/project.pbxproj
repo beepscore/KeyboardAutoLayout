@@ -25,6 +25,7 @@
 		DE62592317690388009DB3A2 /* KeyboardAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */; };
 		DE62592D176903B9009DB3A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE62592C176903B9009DB3A2 /* README.md */; };
 		DE62592F1769040F009DB3A2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE62592E1769040F009DB3A2 /* LICENSE.txt */; };
+		DE8B473B176907710052AB14 /* key_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8B473A176907710052AB14 /* key_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAutoLayoutTests.m; sourceTree = "<group>"; };
 		DE62592C176903B9009DB3A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DE62592E1769040F009DB3A2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DE8B473A176907710052AB14 /* key_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				DE62590917690388009DB3A2 /* MainStoryboard.storyboard */,
 				DE62590C17690388009DB3A2 /* BSViewController.h */,
 				DE62590D17690388009DB3A2 /* BSViewController.m */,
+				DE8B4739176907710052AB14 /* Images */,
 				DE6258F817690388009DB3A2 /* Supporting Files */,
 			);
 			path = KeyboardAutoLayout;
@@ -164,6 +167,14 @@
 				DE62591E17690388009DB3A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE8B4739176907710052AB14 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B473A176907710052AB14 /* key_background.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				DE62590B17690388009DB3A2 /* MainStoryboard.storyboard in Resources */,
 				DE62592D176903B9009DB3A2 /* README.md in Resources */,
 				DE62592F1769040F009DB3A2 /* LICENSE.txt in Resources */,
+				DE8B473B176907710052AB14 /* key_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +474,7 @@
 				DE62592817690388009DB3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE62592917690388009DB3A2 /* Build configuration list for PBXNativeTarget "KeyboardAutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +483,7 @@
 				DE62592B17690388009DB3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
