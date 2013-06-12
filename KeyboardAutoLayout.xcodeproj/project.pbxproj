@@ -23,6 +23,8 @@
 		DE62591817690388009DB3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F317690388009DB3A2 /* Foundation.framework */; };
 		DE62592017690388009DB3A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE62591E17690388009DB3A2 /* InfoPlist.strings */; };
 		DE62592317690388009DB3A2 /* KeyboardAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */; };
+		DE62592D176903B9009DB3A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE62592C176903B9009DB3A2 /* README.md */; };
+		DE62592F1769040F009DB3A2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE62592E1769040F009DB3A2 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		DE62591F17690388009DB3A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE62592117690388009DB3A2 /* KeyboardAutoLayoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardAutoLayoutTests.h; sourceTree = "<group>"; };
 		DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAutoLayoutTests.m; sourceTree = "<group>"; };
+		DE62592C176903B9009DB3A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE62592E1769040F009DB3A2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		DE6258E517690388009DB3A2 = {
 			isa = PBXGroup;
 			children = (
+				DE62592C176903B9009DB3A2 /* README.md */,
+				DE62592E1769040F009DB3A2 /* LICENSE.txt */,
 				DE6258F717690388009DB3A2 /* KeyboardAutoLayout */,
 				DE62591B17690388009DB3A2 /* KeyboardAutoLayoutTests */,
 				DE6258F017690388009DB3A2 /* Frameworks */,
@@ -237,6 +243,8 @@
 				DE62590617690388009DB3A2 /* Default@2x.png in Resources */,
 				DE62590817690388009DB3A2 /* Default-568h@2x.png in Resources */,
 				DE62590B17690388009DB3A2 /* MainStoryboard.storyboard in Resources */,
+				DE62592D176903B9009DB3A2 /* README.md in Resources */,
+				DE62592F1769040F009DB3A2 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
