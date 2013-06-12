@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6258F217690388009DB3A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F117690388009DB3A2 /* UIKit.framework */; };
+		DE6258F417690388009DB3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F317690388009DB3A2 /* Foundation.framework */; };
+		DE6258F617690388009DB3A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F517690388009DB3A2 /* CoreGraphics.framework */; };
+		DE6258FC17690388009DB3A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6258FA17690388009DB3A2 /* InfoPlist.strings */; };
+		DE6258FE17690388009DB3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6258FD17690388009DB3A2 /* main.m */; };
+		DE62590217690388009DB3A2 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62590117690388009DB3A2 /* BSAppDelegate.m */; };
+		DE62590417690388009DB3A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE62590317690388009DB3A2 /* Default.png */; };
+		DE62590617690388009DB3A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE62590517690388009DB3A2 /* Default@2x.png */; };
+		DE62590817690388009DB3A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE62590717690388009DB3A2 /* Default-568h@2x.png */; };
+		DE62590B17690388009DB3A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE62590917690388009DB3A2 /* MainStoryboard.storyboard */; };
+		DE62590E17690388009DB3A2 /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62590D17690388009DB3A2 /* BSViewController.m */; };
+		DE62591617690388009DB3A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE62591517690388009DB3A2 /* SenTestingKit.framework */; };
+		DE62591717690388009DB3A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F117690388009DB3A2 /* UIKit.framework */; };
+		DE62591817690388009DB3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6258F317690388009DB3A2 /* Foundation.framework */; };
+		DE62592017690388009DB3A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE62591E17690388009DB3A2 /* InfoPlist.strings */; };
+		DE62592317690388009DB3A2 /* KeyboardAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE62591917690388009DB3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6258E617690388009DB3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6258ED17690388009DB3A2;
+			remoteInfo = KeyboardAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE6258EE17690388009DB3A2 /* KeyboardAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6258F117690388009DB3A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE6258F317690388009DB3A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE6258F517690388009DB3A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE6258F917690388009DB3A2 /* KeyboardAutoLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		DE6258FB17690388009DB3A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6258FD17690388009DB3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6258FF17690388009DB3A2 /* KeyboardAutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardAutoLayout-Prefix.pch"; sourceTree = "<group>"; };
+		DE62590017690388009DB3A2 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		DE62590117690388009DB3A2 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		DE62590317690388009DB3A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE62590517690388009DB3A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE62590717690388009DB3A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE62590A17690388009DB3A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE62590C17690388009DB3A2 /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		DE62590D17690388009DB3A2 /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		DE62591417690388009DB3A2 /* KeyboardAutoLayoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardAutoLayoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE62591517690388009DB3A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE62591D17690388009DB3A2 /* KeyboardAutoLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardAutoLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		DE62591F17690388009DB3A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE62592117690388009DB3A2 /* KeyboardAutoLayoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardAutoLayoutTests.h; sourceTree = "<group>"; };
+		DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAutoLayoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6258EB17690388009DB3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6258F217690388009DB3A2 /* UIKit.framework in Frameworks */,
+				DE6258F417690388009DB3A2 /* Foundation.framework in Frameworks */,
+				DE6258F617690388009DB3A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE62591017690388009DB3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE62591617690388009DB3A2 /* SenTestingKit.framework in Frameworks */,
+				DE62591717690388009DB3A2 /* UIKit.framework in Frameworks */,
+				DE62591817690388009DB3A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6258E517690388009DB3A2 = {
+			isa = PBXGroup;
+			children = (
+				DE6258F717690388009DB3A2 /* KeyboardAutoLayout */,
+				DE62591B17690388009DB3A2 /* KeyboardAutoLayoutTests */,
+				DE6258F017690388009DB3A2 /* Frameworks */,
+				DE6258EF17690388009DB3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6258EF17690388009DB3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6258EE17690388009DB3A2 /* KeyboardAutoLayout.app */,
+				DE62591417690388009DB3A2 /* KeyboardAutoLayoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6258F017690388009DB3A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6258F117690388009DB3A2 /* UIKit.framework */,
+				DE6258F317690388009DB3A2 /* Foundation.framework */,
+				DE6258F517690388009DB3A2 /* CoreGraphics.framework */,
+				DE62591517690388009DB3A2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6258F717690388009DB3A2 /* KeyboardAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DE62590017690388009DB3A2 /* BSAppDelegate.h */,
+				DE62590117690388009DB3A2 /* BSAppDelegate.m */,
+				DE62590917690388009DB3A2 /* MainStoryboard.storyboard */,
+				DE62590C17690388009DB3A2 /* BSViewController.h */,
+				DE62590D17690388009DB3A2 /* BSViewController.m */,
+				DE6258F817690388009DB3A2 /* Supporting Files */,
+			);
+			path = KeyboardAutoLayout;
+			sourceTree = "<group>";
+		};
+		DE6258F817690388009DB3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6258F917690388009DB3A2 /* KeyboardAutoLayout-Info.plist */,
+				DE6258FA17690388009DB3A2 /* InfoPlist.strings */,
+				DE6258FD17690388009DB3A2 /* main.m */,
+				DE6258FF17690388009DB3A2 /* KeyboardAutoLayout-Prefix.pch */,
+				DE62590317690388009DB3A2 /* Default.png */,
+				DE62590517690388009DB3A2 /* Default@2x.png */,
+				DE62590717690388009DB3A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE62591B17690388009DB3A2 /* KeyboardAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE62592117690388009DB3A2 /* KeyboardAutoLayoutTests.h */,
+				DE62592217690388009DB3A2 /* KeyboardAutoLayoutTests.m */,
+				DE62591C17690388009DB3A2 /* Supporting Files */,
+			);
+			path = KeyboardAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		DE62591C17690388009DB3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE62591D17690388009DB3A2 /* KeyboardAutoLayoutTests-Info.plist */,
+				DE62591E17690388009DB3A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6258ED17690388009DB3A2 /* KeyboardAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE62592617690388009DB3A2 /* Build configuration list for PBXNativeTarget "KeyboardAutoLayout" */;
+			buildPhases = (
+				DE6258EA17690388009DB3A2 /* Sources */,
+				DE6258EB17690388009DB3A2 /* Frameworks */,
+				DE6258EC17690388009DB3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardAutoLayout;
+			productName = KeyboardAutoLayout;
+			productReference = DE6258EE17690388009DB3A2 /* KeyboardAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE62591317690388009DB3A2 /* KeyboardAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE62592917690388009DB3A2 /* Build configuration list for PBXNativeTarget "KeyboardAutoLayoutTests" */;
+			buildPhases = (
+				DE62590F17690388009DB3A2 /* Sources */,
+				DE62591017690388009DB3A2 /* Frameworks */,
+				DE62591117690388009DB3A2 /* Resources */,
+				DE62591217690388009DB3A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE62591A17690388009DB3A2 /* PBXTargetDependency */,
+			);
+			name = KeyboardAutoLayoutTests;
+			productName = KeyboardAutoLayoutTests;
+			productReference = DE62591417690388009DB3A2 /* KeyboardAutoLayoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6258E617690388009DB3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Beepscore LLC";
+			};
+			buildConfigurationList = DE6258E917690388009DB3A2 /* Build configuration list for PBXProject "KeyboardAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6258E517690388009DB3A2;
+			productRefGroup = DE6258EF17690388009DB3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6258ED17690388009DB3A2 /* KeyboardAutoLayout */,
+				DE62591317690388009DB3A2 /* KeyboardAutoLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6258EC17690388009DB3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6258FC17690388009DB3A2 /* InfoPlist.strings in Resources */,
+				DE62590417690388009DB3A2 /* Default.png in Resources */,
+				DE62590617690388009DB3A2 /* Default@2x.png in Resources */,
+				DE62590817690388009DB3A2 /* Default-568h@2x.png in Resources */,
+				DE62590B17690388009DB3A2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE62591117690388009DB3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE62592017690388009DB3A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE62591217690388009DB3A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6258EA17690388009DB3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6258FE17690388009DB3A2 /* main.m in Sources */,
+				DE62590217690388009DB3A2 /* BSAppDelegate.m in Sources */,
+				DE62590E17690388009DB3A2 /* BSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE62590F17690388009DB3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE62592317690388009DB3A2 /* KeyboardAutoLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE62591A17690388009DB3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE6258ED17690388009DB3A2 /* KeyboardAutoLayout */;
+			targetProxy = DE62591917690388009DB3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE6258FA17690388009DB3A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6258FB17690388009DB3A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE62590917690388009DB3A2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE62590A17690388009DB3A2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DE62591E17690388009DB3A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE62591F17690388009DB3A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE62592417690388009DB3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE62592517690388009DB3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE62592717690388009DB3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardAutoLayout/KeyboardAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardAutoLayout/KeyboardAutoLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE62592817690388009DB3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardAutoLayout/KeyboardAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardAutoLayout/KeyboardAutoLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE62592A17690388009DB3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyboardAutoLayout.app/KeyboardAutoLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardAutoLayout/KeyboardAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardAutoLayoutTests/KeyboardAutoLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE62592B17690388009DB3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyboardAutoLayout.app/KeyboardAutoLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardAutoLayout/KeyboardAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardAutoLayoutTests/KeyboardAutoLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6258E917690388009DB3A2 /* Build configuration list for PBXProject "KeyboardAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE62592417690388009DB3A2 /* Debug */,
+				DE62592517690388009DB3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE62592617690388009DB3A2 /* Build configuration list for PBXNativeTarget "KeyboardAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE62592717690388009DB3A2 /* Debug */,
+				DE62592817690388009DB3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE62592917690388009DB3A2 /* Build configuration list for PBXNativeTarget "KeyboardAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE62592A17690388009DB3A2 /* Debug */,
+				DE62592B17690388009DB3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6258E617690388009DB3A2 /* Project object */;
+}
